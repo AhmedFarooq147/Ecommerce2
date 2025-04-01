@@ -44,7 +44,7 @@ export function Footer(){
           <div className="">
             <h3 className="text-lg text-[#9A9CAA] mb-4">Newsletter</h3>
             <form className="">
-              <div className="flex gap-3">
+              <div className="sm:flex sm:gap-3">
               <input type="email" placeholder="Your email" className="border border-gray-700 rounded-md px-4 py-2 mb-4 h-10 "  />
               <button className="bg-[#029FAE] text-white  py-2 px-4 rounded-md h-10">Subscribe</button>
              </div> <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt erat enim.</p>
