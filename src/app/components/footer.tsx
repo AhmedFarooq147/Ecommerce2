@@ -9,7 +9,7 @@ import { FaYoutube } from "react-icons/fa"
 export function Footer(){
     return(
         <div className="container mx-auto mt-12 px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 bg-white sm:grid-cols-2 md:grid-cols-3 gap-8">
           <div>
           <div className="flex items-center gap-[4.5px]"><GiSofa className="text-[#029FAE] text-[40px]"/> <span className="font-bold text-[26px] text-[#272343] ">Comforty</span></div>
             <p className="mt-4">Vivamus tristique odio sit amet velit semper, eu posuere turpis interdum. Cras egestas purus.</p>
